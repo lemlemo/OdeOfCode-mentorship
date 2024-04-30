@@ -1,0 +1,48 @@
+.inspiracija-container {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .circle-container {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+  }
+  
+  .circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: darkolivegreen;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .circle1{
+    background-color: aqua;
+  }
+  .circle:hover {
+    transform: scale(1.1);
+  }
+  
+  header{
+    position: relative;
+  }
+  
+  .header-content {
+    position: relative;
+  }
+  
+  .text-overlay {
+    position: absolute;
+    top: 50%;
+    text-align: left;
+    color: white; 
+  }
+  
+  .text-overlay h1 {
+    font-size: 40px; 
+  }
+
+  body{
+    margin: 0;
+  }
